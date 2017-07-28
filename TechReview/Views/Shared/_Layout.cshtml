@@ -6,6 +6,9 @@
     <title>@ViewBag.Title Tech Reviews</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+    @*Fonts*@
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Muli|Ubuntu" rel="stylesheet">
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -18,20 +21,21 @@
                 </button>
                 @Html.ActionLink("Tech Reviews", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Reviews", "Index", "Reviews")</li>
-                    <li>@Html.ActionLink("Categories", "Index", "Categories")</li>
-                </ul>
-            </div>
         </div>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("Reviews", "Index", "Reviews")</li>
+            <li>@Html.ActionLink("Categories", "Index", "Categories")</li>
+        </ul>
+
     </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Tech Reviews</p>
+            <p>&copy; @DateTime.Now.Year - Tech Reviews </p>
         </footer>
     </div>
 

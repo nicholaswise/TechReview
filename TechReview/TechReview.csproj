@@ -195,6 +195,14 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="images\camera1.jpg" />
+    <Content Include="images\headphones1.jpg" />
+    <Content Include="images\laptop1.jpg" />
+    <Content Include="images\Leica1.jpg" />
+    <Content Include="images\phantom.jpg" />
+    <Content Include="images\sonyphones1.jpg" />
+    <Content Include="images\vsco_camera_1.png" />
+    <Content Include="images\whitekeyboard.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />

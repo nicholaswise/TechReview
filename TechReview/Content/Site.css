@@ -22,3 +22,67 @@ select,
 textarea {
     max-width: 280px;
 }
+a.navbar-brand:hover {
+    color:#FCD837 !important;
+    background-color:white !important;
+}
+a.navbar-brand {
+    font-family: 'Droid Sans', sans-serif !important;
+    color:#00BCD4 !important;
+    font-weight:bold;
+    padding-left:21px;
+    font-size:3em;
+}
+div.navbar-collapse.collapse {
+    background-color:#00BCD4;
+    padding-left:100px;
+}
+a {
+    font-family: 'Ubuntu', sans-serif;
+    color:white !important;
+    padding-top:0px;
+    padding-bottom:0px;
+}
+a:hover {
+    color:#FCD837 !important;
+    background-color:#00BCD4 !important;
+}
+div.navbar.navbar-inverse.navbar-fixed-top {
+    background-color:white;
+    border:0px 0px 8px 0px;
+    border:none;
+}
+a.btn.btn-default {
+    background-color:darkorange;
+}
+a.btn.btn-default:hover {
+    background-color:white !important;
+}
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color:gray;
+}
+th {
+    font-family: 'Muli', sans-serif;
+    color:dimgray;
+}
+td {
+    font-family: 'Muli', sans-serif;
+}
+.createText {
+    color:gray !important;
+}
+label.control-label.col-md-2 {
+    font-family: 'Muli', sans-serif;
+}
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    color:gray;
+}
+input.btn.btn-default:hover {
+    background-color:#00BCD4;
+    text-decoration-color:white !important;
+}
+
+
+

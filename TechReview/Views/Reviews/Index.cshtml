@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<TechReview.Models.Review>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Reviews";
 }
 
 <h2>Reviews</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+<p><a class="btn btn-default" @Html.ActionLink("Create New", "Create") </a></p> 
 </p>
 <table class="table">
     <tr>

@@ -52,6 +52,7 @@ namespace TechReview.Controllers
         {
             if (ModelState.IsValid)
             {
+                review.PublishDate = DateTime.Now;
                 db.Reviews.Add(review);
                 db.SaveChanges();
                 return RedirectToAction("Index");

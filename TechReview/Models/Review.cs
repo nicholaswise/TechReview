@@ -17,6 +17,8 @@ namespace TechReview.Models
         public DateTime PublishDate { get; set; }
 
         [ForeignKey("Category")]
+
+        [Display(Name ="Category")]
         public int CategoryID { get; set; }
         public virtual Category Category { get;set;}
 
