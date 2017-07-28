@@ -13,6 +13,7 @@ namespace TechReview.Models
         public int ID { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
+        [Display(Name ="Publish Date")]
         public DateTime PublishDate { get; set; }
 
         [ForeignKey("Category")]
