@@ -37,6 +37,9 @@ div.navbar-collapse.collapse {
     background-color:#00BCD4;
     padding-left:100px;
 }
+p {
+    padding-top:10px;
+}
 a {
     font-family: 'Ubuntu', sans-serif;
     color:white !important;
