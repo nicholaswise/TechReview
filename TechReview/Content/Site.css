@@ -124,10 +124,35 @@ div.form-actions.no-color a:hover {
 }
 h1#homeTitle {
     color:white;
-    font-family: 'Muli', sans-serif;
-    border:2px solid gray;
+    font-family: 'Droid Sans', sans-serif;
+    border:2px solid white;
     padding:5px 5px 5px 5px;
     position:absolute;
+    top:350px;
+    left:182px;
+}
+.container#box {
+    position:absolute;
+    background-color:darkgray;
+    opacity:0.8;
+    top:360px;
+    left:153px;
+    height:75px;
+    width:1050px;
+}
+
+@media (max-width:1050px) {
+    div#box.container {
+        display: none;
+    }
+}
+@media(max-width:1050px) {
+    h1#homeTitle {
+        display:none;
+    }
+}
+dd {
+    font-family:'Muli',sans-serif;
 }
 
 

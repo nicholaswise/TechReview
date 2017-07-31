@@ -3,13 +3,13 @@
 @{
     ViewBag.Title = "Details";
 }
-
+<center>
     <h2>Details</h2>
 
     <div>
         <h4>Review</h4>
         <hr />
-        <dl class="dl-horizontal">
+        <dl class="dl-center">
             <dd>
                 @Html.DisplayFor(model => model.Category.Name)
             </dd>
@@ -32,3 +32,4 @@
         @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
         @Html.ActionLink("Back to List", "Index")
     </p>
+</center>
