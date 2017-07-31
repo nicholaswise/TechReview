@@ -196,6 +196,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\camera1.jpg" />
+    <Content Include="images\drone2.jpg" />
     <Content Include="images\headphones1.jpg" />
     <Content Include="images\laptop1.jpg" />
     <Content Include="images\Leica1.jpg" />
